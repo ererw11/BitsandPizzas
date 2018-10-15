@@ -48,12 +48,16 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/order_name_hint" />
+                android:hint="@string/order_name_hint"
+                android:inputType=""
+                android:importantForAutofill="no" />
 
             <EditText
                 android:hint="@string/order_details_hint"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType=""
+                android:importantForAutofill="no" />
         </LinearLayout>
 
 
