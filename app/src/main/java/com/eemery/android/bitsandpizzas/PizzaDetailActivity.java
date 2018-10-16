@@ -8,8 +8,6 @@ import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-;
-
 public class PizzaDetailActivity extends AppCompatActivity {
 
     public static final String EXTRA_PIZZA_ID = "pizzaId";
